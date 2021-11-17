@@ -144,5 +144,5 @@ const isNumb = number => {
   return number % 1 == 0 && number >= 0;
 };
 const isText = text => {
-  return /^[a-zñA-ZÑ ]+$/.test(text);
+  return /^[a-zñA-ZÑ-áéíóú ]+$/.test(text);
 };
